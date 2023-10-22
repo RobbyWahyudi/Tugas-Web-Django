@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIE GACOAN-contact</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: Poppins;
+        background-color: rgb(230, 230, 230);
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        color: rgb(24, 24, 24);
+        padding: 0 50px;
+      }
+      header a {
+        color: rgb(24, 24, 24);
+        text-decoration: none;
+      }
+      ul {
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        /* background-color: aqua; */
+      }
+      ul li a {
+        text-decoration: none;
+        color: rgb(7, 18, 167);
+      }
+      ul li a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      main {
+        margin-top: 30px;
+        padding: 0 50px;
+      }
+      input {
+        width: 228px;
+        height: 30px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        padding: 0 4px;
+      }
+      button {
+        width: 238px;
+        height: 30px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/home"><h1>MIE GACOAN</h1></a>
+      <ul>
+        <li><a href="/home">HOME</a></li>
+        <li><a href="/products">PRODUCTS</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+        <li><a href="/about">ABOUT</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h2>CONTACT US</h2>
+      <input type="text" placeholder="Nama" /><br />
+      <textarea placeholder="Pesan" name="" id="" cols="30" rows="10"></textarea
+      ><br />
+      <button type="submit">Kirim</button>
+    </main>
+  </body>
+</html>
